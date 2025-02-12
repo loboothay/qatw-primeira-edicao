@@ -89,9 +89,9 @@ services:
     environment:
       - REDIS_HOST=paybank-redis                             # Host do Redis
       - REDIS_PORT=6379                                      # Porta do Redis
-      - MAILTRAP_ACCOUNT_ID=3365587                          # ID da conta do Mailtrap
-      - MAILTRAP_TOKEN=8aa3830ddaeaadd601afe16cae5da073      # Token do Mailtrap
-      - MAILTRAP_INBOX_ID=3365587                            # ID da caixa de entrada do Mailtrap
+      - MAILTRAP_ACCOUNT_ID=3456176                         # ID da conta do Mailtrap
+      - MAILTRAP_TOKEN=d00de17d83bdf05fdcb86fff6d0f7ee7      # Token do Mailtrap
+      - MAILTRAP_INBOX_ID=3456176                           # ID da caixa de entrada do Mailtrap
       - TZ=America/Sao_Paulo                                 # Fuso horário
     restart: unless-stopped
 
