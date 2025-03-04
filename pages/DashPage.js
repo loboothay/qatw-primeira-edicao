@@ -1,9 +1,9 @@
-export class DashPage{
-    constructor(page){
+export class DashPage {
+    constructor(page) {
         this.page = page
     }
-    
-    async obterSaldo(){
+
+    async obterSaldo() {
         return this.page.locator('#account-balance')
     }
 }
